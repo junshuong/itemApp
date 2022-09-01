@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "230989181858",
+    "project_id": "itemmobileapp2",
+    "storage_bucket": "itemmobileapp2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230989181858:android:e080d81307e8c0a84c78fb",
+        "android_client_info": {
+          "package_name": "org.wit.item"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230989181858-ufsrnqbkgf5ava3mg1etaqih076bnifd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.wit.item",
+            "certificate_hash": "65a0577dddc8e366d105db08037babd927faed1e"
+          }
+        },
+        {
+          "client_id": "230989181858-082jnd9ourlk4514ov4jomonjbr7hojm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqtXXtzcgcO2izzJSS9oqA5OLGXnSnsgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230989181858-082jnd9ourlk4514ov4jomonjbr7hojm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
