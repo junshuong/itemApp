@@ -26,6 +26,7 @@ class ItemMemStore : ItemStore {
         if (foundItem != null) {
             foundItem.name = item.name
             foundItem.description = item.description
+            foundItem.quantity = item.quantity
             foundItem.image = item.image
             foundItem.lat = item.lat
             foundItem.lng = item.lng

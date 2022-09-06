@@ -35,6 +35,7 @@ class ItemAdapter constructor(private var items: List<ItemModel>,
         fun bind(item: ItemModel, listener: ItemListener) {
             binding.itemName.text = item.name
             binding.description.text = item.description
+            binding.itemQuantity.text = item.quantity.toString()
             Picasso.get().load(item.image).resize(200,200).into(binding.imageIcon)
             binding.root.setOnClickListener { listener.onItemClick(item) }
         }

@@ -40,5 +40,12 @@
             android:layout_below="@id/itemName"
             tools:text="A Description" />
 
+        <TextView
+            android:id="@+id/itemQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description"
+            tools:text="Quantity of Item" />
+
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
