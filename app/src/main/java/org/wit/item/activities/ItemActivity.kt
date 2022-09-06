@@ -45,6 +45,7 @@ class ItemActivity : AppCompatActivity() {
             binding.itemName.setText(item.name)
             binding.description.setText(item.description)
             binding.itemQuantity.setText(item.quantity.toString()) // change variable class from Int to String
+            binding.itemFoundLocation.setText(item.location)
             binding.btnAdd.setText(R.string.save_item)
             Picasso.get()
                 .load(item.image)
@@ -58,6 +59,7 @@ class ItemActivity : AppCompatActivity() {
             item.name = binding.itemName.text.toString()
             item.description = binding.description.text.toString()
             item.quantity = binding.itemQuantity.text.toString().toInt() // changed binding back to Int (from String)
+            item.location = binding.itemFoundLocation.text.toString()
             if(item.name.isEmpty()) {
                 Snackbar
                     .make(it, R.string.enter_itemName, Snackbar.LENGTH_LONG)

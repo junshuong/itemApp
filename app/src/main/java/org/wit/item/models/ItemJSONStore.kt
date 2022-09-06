@@ -50,6 +50,7 @@ class ItemJSONStore(private val context: Context) : ItemStore {
             foundItem.name = item.name
             foundItem.description = item.description
             foundItem.quantity = item.quantity
+            foundItem.location = item.location
             foundItem.image = item.image
             foundItem.lat = item.lat
             foundItem.lng = item.lng

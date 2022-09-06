@@ -47,5 +47,12 @@
             android:layout_below="@id/description"
             tools:text="Quantity of Item" />
 
+        <TextView
+            android:id="@+id/itemFoundLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/itemQuantity"
+            tools:text="A Location" />
+
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
