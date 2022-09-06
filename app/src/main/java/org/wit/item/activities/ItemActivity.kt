@@ -44,7 +44,7 @@ class ItemActivity : AppCompatActivity() {
             item = intent.extras?.getParcelable("item_edit")!!
             binding.itemName.setText(item.name)
             binding.description.setText(item.description)
-            binding.itemQuantity.setText(item.quantity.toString())
+            binding.itemQuantity.setText(item.quantity.toString()) // change variable class from Int to String
             binding.btnAdd.setText(R.string.save_item)
             Picasso.get()
                 .load(item.image)
@@ -57,7 +57,7 @@ class ItemActivity : AppCompatActivity() {
         binding.btnAdd.setOnClickListener() {
             item.name = binding.itemName.text.toString()
             item.description = binding.description.text.toString()
-            item.quantity = binding.itemQuantity.text.toString().toInt()
+            item.quantity = binding.itemQuantity.text.toString().toInt() // changed binding back to Int (from String)
             if(item.name.isEmpty()) {
                 Snackbar
                     .make(it, R.string.enter_itemName, Snackbar.LENGTH_LONG)

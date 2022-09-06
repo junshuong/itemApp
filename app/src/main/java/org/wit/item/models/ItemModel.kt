@@ -8,7 +8,7 @@ import kotlinx.parcelize.Parcelize
 data class ItemModel(var id: Long = 0,
                      var name: String = "",
                      var description: String = "",
-                     var quantity: Int = 0,
+                     var quantity: Int = 1, // changed to 1 as default
                      var image: Uri = Uri.EMPTY,
                      var lat: Double = 0.0,
                      var lng: Double = 0.0,
